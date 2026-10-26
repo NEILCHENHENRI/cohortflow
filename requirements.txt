@@ -1,0 +1,13 @@
+duckdb>=1.0
+numpy>=1.26,<3
+pytest>=8.0
+streamlit>=1.45
+streamlit-flow-component>=1.6.1
+
+langgraph>=1.2,<2
+
+sentence-transformers>=3.0,<6
+
+# Custom-dataset unit parsing (includes UCUM definitions; no molar-mass tables).
+pint==0.26.1
+ucumvert==0.3.2

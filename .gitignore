@@ -1,0 +1,39 @@
+# Python and local environments
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local clinical data and generated databases
+/data/*
+!/data/README.md
+!/data/demo/
+/data/demo/*
+!/data/demo/README.md
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+
+# Notebook caches and logs
+.ipynb_checkpoints/
+*.log
+
+# OS files
+.DS_Store
